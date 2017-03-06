@@ -5,7 +5,7 @@ var galleryController = function(title) {
     var multerS3 = require('multer-s3');
     var ep = new aws.Endpoint('https://s3-api.us-geo.objectstorage.softlayer.net');
     var s3 = new aws.S3({endpoint: ep, region: 'us-east-1'});
-    var myBucket = 'web-images1';
+    var myBucket = 'web-images';
 
     var upload = multer({
         storage: multerS3({
