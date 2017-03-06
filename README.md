@@ -8,6 +8,6 @@ This application demonstrates a simple Node.js Express web app that stores image
 + cd into this project's root directory
 + Run `npm install` to install the app's dependencies
 + Run `npm start` to start the app
-+ Access the running app in a browser at <http://localhost:6001>
++ Access the running app in a browser at <http://localhost:3000>
 
 [Install Node.js]: https://nodejs.org/en/download/
