@@ -1,6 +1,6 @@
 var galleryController = function(title) {
 
-    var aws = require('aws-sdk');
+    var aws = require('ibm-cos-sdk');
     var multer = require('multer');
     var multerS3 = require('multer-s3');
     var ep = new aws.Endpoint('https://s3-api.us-geo.objectstorage.softlayer.net');
@@ -22,7 +22,7 @@ var galleryController = function(title) {
 
         var imageUrlList = [];
         var params = {Bucket: myBucket};
-        s3.listObjectsV2(params, function (err, data) {
+        s3.listObjects(params, function (err, data) {
             if(data) {
                 var bucketContents = data.Contents;
 
