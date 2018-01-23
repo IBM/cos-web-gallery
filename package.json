@@ -6,7 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "ibm-cos-sdk": "^1.0.0",
+    "aws-sdk": "2.16.0",
     "body-parser": "^1.16.1",
     "cfenv": "1.0.x",
     "ejs": "^2.5.6",
