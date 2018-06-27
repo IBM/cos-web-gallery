@@ -1,12 +1,12 @@
 {
-  "name": "COS-WebGallery",
-  "version": "0.0.1",
+  "name": "cos-web-gallery",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "aws-sdk": "2.16.0",
+    "ibm-cos-sdk": "1.2.1",
     "body-parser": "^1.16.1",
     "cfenv": "1.0.x",
     "ejs": "^2.5.6",
