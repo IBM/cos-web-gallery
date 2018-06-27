@@ -46,8 +46,11 @@ $ git clone https://github.com/IBM/cos-web-gallery
 
 
 ### 3. Run the application
-1. [Install Node.js] runtime or NPM.
+1. [Install Node.js][] runtime or NPM.
 1. Start the app by running `npm install`, followed by `npm start`.
 1. Access the running app in a browser at `localhost:3000`
+
+# License
+[Apache 2.0](LICENSE)
 
 [Install Node.js]: https://nodejs.org/en/download/
