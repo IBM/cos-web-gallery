@@ -50,6 +50,12 @@ $ git clone https://github.com/IBM/cos-web-gallery
 1. Start the app by running `npm install`, followed by `npm start`.
 1. Access the running app in a browser at `localhost:3000`
 
+# Sample output
+
+Once run either locally or on IBM Cloud, you should see the following page when you hit the URL for you application:
+
+![](doc/source/images/cos_webgallery.png)
+
 # License
 [Apache 2.0](LICENSE)
 
