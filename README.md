@@ -34,6 +34,10 @@ Use the ``Deploy to IBM Cloud`` button **OR** create run locally
 
 ## Deploy to IBM Cloud
 
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM/cos-web-gallery)
+
+Press the above ``Deploy to IBM Cloud`` button and then click on ``Deploy``.
+
 ## Run the app locally
 > NOTE: These steps are only needed when running locally instead of using the ``Deploy to IBM Cloud`` button.
 
@@ -49,6 +53,9 @@ Clone the `cos-web-gallery` locally. In a terminal, run:
 $ git clone https://github.com/IBM/cos-web-gallery
 ```
 
+### 2. Configure IBM Cloud Object Storage
+
+In the IBM Cloud Console for COS, select the instance you would like to use, and then 'Service Credentials' from the menu on the left.  Create a new credential, and then copy the contents of this credential to the clipboard using the 'Copy to Clipboard' icon.  Paste the contents into a file named `~/.bluemix/cos_credentials'.
 
 ### 3. Run the application
 1. [Install Node.js][] runtime or NPM.
