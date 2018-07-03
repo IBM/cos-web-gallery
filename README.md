@@ -7,10 +7,14 @@ When the reader has completed this Code Pattern, they will understand how to:
 * Deploy a Cloud Foundry app
 * Interact with Cloud Object Storage
 
+![](doc/source/images/architecture.png)
+
 ## Flow
 
-1. User sets up the example app
-2. App uploads images to COS
+1. From the Image Upload form the user selects an image by using the photo gallery upload form and clicks Upload.
+2. The form performs a POST to the app, and the app uses the S3 SDK to generate a PUT to the IBM COS server.
+3. The user clicks the Gallery tab, which makes a GET request to the app for the gallery view.
+4. The app performs a GET request through the S3 SDK to retrieve the image URLs of the images that are stored in the IBM COS bucket. The image URLs passed back in the response are merged with the view template which is rendered for the user and the images are displayed.
 
 ## Included components
 
