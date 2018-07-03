@@ -29,6 +29,8 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 # Watch the Video
 
+[![](http://img.youtube.com/vi/0OLmvFJ_HKM/0.jpg)](https://www.youtube.com/watch?v=0OLmvFJ_HKM)
+
 # Steps
 Use the ``Deploy to IBM Cloud`` button **OR** create run locally
 
