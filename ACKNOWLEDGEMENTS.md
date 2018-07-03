@@ -1,0 +1,1 @@
+This repository is an update to the work Steve Bollers did in the [IBMRedbooks-SG248385-Cloud-Object-Storage-as-a-Service](https://github.com/IBMRedbooks/IBMRedbooks-SG248385-Cloud-Object-Storage-as-a-Service) repo.
