@@ -1,4 +1,4 @@
-# IBM COS Web Gallery
+# IBM Cloud Object Storage Web Gallery
 
 This application demonstrates a simple Node.js Express web app that stores images to IBM Cloud Object storage, and retrieves their object URL to display them in a web gallery view.
 
