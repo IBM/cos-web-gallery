@@ -1,11 +1,12 @@
 # IBM Cloud Object Storage Web Gallery
 
-This application demonstrates a simple Node.js Express web app that stores images to IBM Cloud Object storage, and retrieves their object URL to display them in a web gallery view.
+In this Code Pattern, we will create a Web Gallery using a Node.js Express web app that stores images to IBM Cloud Object storage, and retrieves their object URL to display them.  At the heart of the server side app is the JavaScript IBM COS SDK package which handles the authentication and connectivity to IBM COS. Express handles the routing allowing the business logic to be handled by the controller. The upload form uploads an image to an express route which calls functions from the IBM COS SDK, multer, and multer-s3 functions to upload it to the designated IBM COS bucket. A request for the image gallery view invokes IBM COS SDK functions to get the URL for each image in the bucket. The URL data is sent back in the response and merged with the EJS view template and during the view rendering.
 
 When the reader has completed this Code Pattern, they will understand how to:
 
-* Deploy a Cloud Foundry app
-* Interact with Cloud Object Storage
+* Deploy a Node.js app (optionally using Cloud Foundry)
+* Provision a service instance of Cloud Object Storage
+* Use the Node.js IBM COS SDK to interact with Cloud Object Storage
 
 ![](doc/source/images/architecture.png)
 
