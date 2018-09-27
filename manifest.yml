@@ -1,7 +1,7 @@
 ---
 declared-services:
   cloud-object-storage:
-    label: cos
+    label: cloud-object-storage
     plan: lite
 applications:
 - path: .
