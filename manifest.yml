@@ -1,6 +1,6 @@
 ---
 declared-services:
-  cloud-object-storage:
+  cwg-cloud-object-storage:
     label: cloud-object-storage
     plan: lite
 applications:
@@ -12,4 +12,4 @@ applications:
   host: cos-web-gallery
   disk_quota: 1024M
   services:
-  - cloud-object-storage
+  - cwg-cloud-object-storage
