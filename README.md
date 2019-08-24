@@ -57,7 +57,7 @@ $ git clone https://github.com/IBM/cos-web-gallery
 
 ### 2. Configure IBM Cloud Object Storage
 
-In the IBM Cloud Console for COS, select the instance you would like to use, and then 'Service Credentials' from the menu on the left.  Create a new credential, and then copy the contents of this credential to the clipboard using the 'Copy to Clipboard' icon.  Paste the contents into a file named `~/.bluemix/cos_credentials'.
+In the IBM Cloud Console for COS, select the instance you would like to use, and then `Service Credentials` from the menu on the left.  Create a new credential, and then copy the contents of this credential to the clipboard using the `Copy to Clipboard` icon.  Paste the contents into a file named `~/.bluemix/cos_credentials`.
 
 ### 3. Run the application
 1. [Install Node.js][] runtime or NPM.
@@ -66,13 +66,13 @@ In the IBM Cloud Console for COS, select the instance you would like to use, and
 
 # Sample output
 
-Once run either locally or on IBM Cloud, you should see the following page when you hit the URL for you application:
+Once run either locally or on IBM Cloud, you should see the following page when you hit the URL for your application:
 
 ![](doc/source/images/cos_webgallery.png)
 
 # License
 
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2. Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 [Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
 
