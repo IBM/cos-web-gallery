@@ -27,10 +27,6 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [Cloud](https://developer.ibm.com/depmodels/cloud/): Accessing computer and information technology resources through the Internet.
 * [Node.js](https://nodejs.org/): An open-source JavaScript run-time environment for executing server-side JavaScript code.
 
-# Watch the Video
-
-[![](https://img.youtube.com/vi/0OLmvFJ_HKM/0.jpg)](https://www.youtube.com/watch?v=0OLmvFJ_HKM)
-
 # Steps
 Use the ``Deploy to IBM Cloud`` button **OR** create run locally
 
@@ -57,7 +53,7 @@ $ git clone https://github.com/IBM/cos-web-gallery
 
 ### 2. Configure IBM Cloud Object Storage
 
-In the IBM Cloud Console for COS, select the instance you would like to use, and then `Service Credentials` from the menu on the left.  Create a new credential, and then copy the contents of this credential to the clipboard using the `Copy to Clipboard` icon.  Paste the contents into a file named `~/.bluemix/cos_credentials`.
+In the IBM Cloud Console for COS, select the instance you would like to use, and then **Service Credentials** from the menu on the left.  Create a new credential, and then copy the contents of this credential to the clipboard using the **Copy to Clipboard** icon.  Paste the contents into a file named `~/.bluemix/cos_credentials`.
 
 ### 3. Run the application
 1. [Install Node.js][] runtime or NPM.
@@ -70,10 +66,10 @@ Once run either locally or on IBM Cloud, you should see the following page when 
 
 ![](doc/source/images/cos_webgallery.png)
 
-# License
+## License
 
-This code pattern is licensed under the Apache Software License, Version 2. Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2. Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+[Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
 
 [Install Node.js]: https://nodejs.org/en/download/
