@@ -27,40 +27,19 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [Cloud](https://developer.ibm.com/depmodels/cloud/): Accessing computer and information technology resources through the Internet.
 * [Node.js](https://nodejs.org/): An open-source JavaScript run-time environment for executing server-side JavaScript code.
 
-# Steps
-Use the ``Deploy to IBM Cloud`` button **OR** create run locally
+## Deployment options
 
-## Deploy to IBM Cloud
+Click on one of the options below for instructions on deploying the app.
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/IBM/cos-web-gallery)
+|   |   |
+| - | - |
+| [![public](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/cf.png)](doc/source/cf.md) | [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) |
 
-Press the above ``Deploy to IBM Cloud`` button and then click on ``Deploy``.
 
-## Run the app locally
-> NOTE: These steps are only needed when running locally instead of using the ``Deploy to IBM Cloud`` button.
 
-1. [Clone the repo](#1-clone-the-repo)
-2. [Configure IBM Cloud Object Storage](#2-configure-ibm-cloud-object-storage)
-3. [Run the application](#3-run-the-application)
 
-### 1. Clone the repo
 
-Clone the `cos-web-gallery` locally. In a terminal, run:
-
-```
-$ git clone https://github.com/IBM/cos-web-gallery
-```
-
-### 2. Configure IBM Cloud Object Storage
-
-In the IBM Cloud Console for COS, select the instance you would like to use, and then **Service Credentials** from the menu on the left.  Create a new credential, and then copy the contents of this credential to the clipboard using the **Copy to Clipboard** icon.  Paste the contents into a file named `~/.bluemix/cos_credentials`.
-
-### 3. Run the application
-1. [Install Node.js][] runtime or NPM.
-1. Start the app by running `npm install`, followed by `npm start`.
-1. Access the running app in a browser at `localhost:3000`
-
-# Sample output
+## Sample output
 
 Once run either locally or on IBM Cloud, you should see the following page when you hit the URL for your application:
 
