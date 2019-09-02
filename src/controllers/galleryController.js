@@ -17,8 +17,8 @@ var galleryController = function(title) {
     var aws = require('ibm-cos-sdk');
     var multer = require('multer');
     var multerS3 = require('multer-s3');
-    var ep = new aws.Endpoint('https://s3-api.us-geo.objectstorage.softlayer.net');
-    var s3 = new aws.S3({endpoint: ep, region: 'us-east-1'});
+    var ep = new aws.Endpoint('https://s3.us-south.cloud-object-storage.appdomain.cloud');
+    var s3 = new aws.S3({endpoint: ep, region: 'us-south'});
     var myBucket = 'web-images-olaph';
 
     var upload = multer({
